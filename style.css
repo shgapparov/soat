@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   margin: 0;
+    background-image: url("https://lionmotors.uz/wp-content/uploads/2020/11/malibumin4-600x360.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    gap: 15px;
+}
+h1{
+    margin: 0;
+     background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 10px 30px;
+    font-size: 150px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+p{
+     background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 10px 40px;
+    margin: 0;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
