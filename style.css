@@ -34,3 +34,11 @@ p{
     border-radius: 20px;
     border: 2px solid rgba(255, 255, 255, 0.3);
 }
+@media(max-width:768px){
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 10px;
+    }
+}
